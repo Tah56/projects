@@ -1,0 +1,160 @@
+* {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: box-sizing;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imge-1{
+  min-height: 600px;
+  min-width: 100%;
+  background-image: url(/img/developer.png);
+  background-size: 100% 100%;
+  background-repeat: none;
+}
+
+
+.imge-2{
+  min-height: 150px;
+  width: 100%;
+  background-image: url(/img/web.png);
+  background-size: 100% 100%;
+  background-repeat: none;
+}
+
+.imge-3{
+  min-height: 150px;
+  width: 100%;
+  background-image: url(/img/mobile.png);
+  background-size: 100% 100%;
+  background-repeat: none;
+}
+
+.imge-4{
+  min-height: 150px;
+  width: 100%;
+  background-image: url(/img/uiux.png);
+  background-size: 100% 100%;
+  background-repeat: none;
+}
+
+ .txt{
+   height: 150px;
+   width: 100%;
+   background-color: #0D0D0D;
+   color: #FBFCFF;
+   text-align: center;
+   text-transform: capitalize ;
+   font-size: 2.85rem;
+ }
+span{
+  font-size: 5rem;
+}
+
+aside{
+ min-height: 650px;
+ max-width: 100%;
+ background-color: #FBFCFF;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.web{
+   max-height: 500px;
+   max-width: 220px;
+   font-size: .85rem;
+   text-transform: capitalize;
+   text-align: center;
+   margin: 10px auto;
+   box-shadow: 5px 8px 8px rgba(1, 1, 1, 0.5);  
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   
+   
+}
+
+.App{
+   max-height: 400px;
+   max-width: 220px;
+   font-size: .85rem;
+   text-transform: capitalize;
+   text-align: center;
+   margin: auto;
+   border-bottom-right-radius: 10px ;
+   border-bottom-left-radius: 10px ;
+   box-shadow: 5px 8px 8px rgba(1, 1, 1, 0.5);  
+
+}
+
+.ui-ux{
+   max-height: 400px;
+   max-width: 220px;
+   font-size: .85rem;
+   text-transform: capitalize;
+   text-align: center;
+   margin: 10px auto ;
+   border-bottom-right-radius: 10px ;
+   border-bottom-left-radius: 10px ;
+   box-shadow: 5px 8px 8px rgba(1, 1, 1, 0.5);  
+   
+
+}
+p,h1{
+   padding: 10px;
+
+}
+.web,.App,.ui-ux{
+   transform: scale(1);
+   transition: 0.3s ease-in-out;
+
+}
+
+.card:hover{
+   transform: scale(1.24);
+   transition: 0.3s ease-in-out;  
+   box-shadow: 5px 8px 8px rgba(1, 1, 1, .8);  
+}
+
+.txt-3{
+   display: flex;
+}
+
+ .contact{
+    min-height: 400px;
+    background-color:#7A80C3;
+ }
+ 
+  .About{
+   min-height: 400px;
+   background-color: #E8C3C3; 
+}
+
+.contact,.About{
+   padding: 32px;
+}
+
+.contact h1 ,.About h1{
+   font-size: 4rem;
+   padding: 0 0 0 0;
+   text-transform: capitalize;
+}
+
+.txt-2 ,.contact p ,.About p{
+ padding: 0 0 0 0;
+ margin-bottom:2rem ;
+}
+
+footer {
+   min-width: 100%;
+   background-color: #000000;
+   color: #fff;
+   
+}
+h2{
+   text-align: center;
+   text-transform: uppercase;
+   padding: 2rem;
+}
