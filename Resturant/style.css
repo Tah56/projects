@@ -1,0 +1,200 @@
+*{
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+   border: box-sizing;
+}
+
+html,body{
+   height: 100vh;
+   min-width:1200px;
+}
+
+nav{
+   max-height: 800px; 
+   background-color: yellowgreen;
+}
+.logo{
+   height: 50px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.img-1{
+   width: 100px;
+   margin-left: 50px;
+}
+i{
+   font-size: 1.5rem ;
+   margin-right: 50px;
+}
+
+.hero{
+   max-height: 500px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.sec-1{
+   height: 350px;
+   width: 50%;
+   display: flex;
+   justify-content: end;
+   align-items: start ;
+   
+   border-left: none;
+
+}
+
+.sec-2{
+   height: 350px;
+   min-width: 49.8%;
+   
+   border-left: none;
+}
+
+.txt-1 {
+   height: 25px;
+   width: 200px;
+   padding:5px;
+   color: whitesmoke;
+   font-weight: 300;
+   text-align: center;
+   display: inline-block;
+   margin: 40px 0 20px 0;
+   background-color: green;
+   
+}
+
+.text-0{
+   font-size: 2rem ;
+   font-weight: 500;
+   color: #F0FFDE;
+   text-transform: capitalize;
+}
+
+.text-1{
+   font-size: 0.5rem;
+   margin-top: 10px;
+}
+
+.btn{
+   display: inline-block;
+   margin: 30px 0 0 0;
+   padding: 10px 15px 10px 10px ;
+   background-color: #FFB03C;
+   text-align: center;
+   color: #fff;
+}
+
+.imge-2{
+   height: 320px;
+   width: 320px;
+   padding-right: 10px;
+}
+
+.sec-3{
+  height: 100px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.txt-2{
+   height: 100px ;
+   width: 200px;
+   display: flex;
+   align-items: center ;
+
+}
+
+.img-3{
+   height: 50px;
+   width: 50px;
+   align-self: center ;
+}
+
+.text-3{
+   font-size: 0.01rem;
+}
+
+.min-sec{
+   max-height: 80px;
+   width:100px;
+   margin-left: 5px;
+}
+.token{
+   margin: 5px 0 5px 0;
+}
+
+aside{
+   max-height: 1200px;
+}
+
+.menu-bar{
+   min-height: 100px;
+   text-align: center ;
+   text-transform: uppercase ;
+   justify-items:center ;
+}
+
+.menu{
+   height: 25px;
+   width: 75px;
+   background: green;
+   align-content: center ;
+   margin: 0 0 10px 0;
+}
+
+
+
+.pic{
+   width: 750px ;
+   display: grid;
+   grid-gap: 10px ;
+   grid-template-areas:
+   "p1 p1 p2 p3 "
+   "p1 p1 p2 p7 "
+   "p4 p5 p6 p7 "
+
+   
+
+   
+   
+   
+   
+}
+
+ .pic-1{
+    grid-area: p1;
+}
+
+.pic-2{
+   grid-area: p2;
+   
+}
+
+.pic-3{ 
+   
+   grid-area: p3;
+}
+
+.pic-4{
+   
+   grid-area: p4;
+}
+
+.pic-5{
+   grid-area: p5;
+}
+
+.pic-6{
+   grid-area: p6;
+}
+
+.pic-7{
+   grid-area: p7;
+}
